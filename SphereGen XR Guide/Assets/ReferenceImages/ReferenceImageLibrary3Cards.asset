@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ReferenceImageLibrary3Cards
+  m_EditorClassIdentifier: 
+  m_GuidLow: 4889081215359020590
+  m_GuidHigh: 17480237215318073989
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5119536481197588139
+      m_GuidHigh: 8075574773383353496
+    m_SerializedTextureGuid:
+      m_GuidLow: 6315281036801410133
+      m_GuidHigh: 12237360996206013675
+    m_Size: {x: 0.0889, y: 0.0508}
+    m_SpecifySize: 1
+    m_Name: AndrewBiz
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5685337467951668725
+      m_GuidHigh: 6457900377717444026
+    m_SerializedTextureGuid:
+      m_GuidLow: 15074705755694282153
+      m_GuidHigh: 11100763543961398730
+    m_Size: {x: 0.0889, y: 0.05334}
+    m_SpecifySize: 1
+    m_Name: StevenFestaBiz
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4822998027983026529
+      m_GuidHigh: 18354109981394541206
+    m_SerializedTextureGuid:
+      m_GuidLow: 16326830459046124890
+      m_GuidHigh: 3451061276137133755
+    m_Size: {x: 0.0889, y: 0.05334}
+    m_SpecifySize: 1
+    m_Name: MatthewDiasBiz
+    m_Texture: {fileID: 0}

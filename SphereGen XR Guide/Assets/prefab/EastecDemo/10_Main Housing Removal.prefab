@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1370316566401353620
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 880436248916468066, guid: 5679c79b33fa3364ab7d2cc4f85cde38, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 880436249290670816, guid: 5679c79b33fa3364ab7d2cc4f85cde38, type: 3}
+      propertyPath: m_Name
+      value: 10_Main Housing Removal
+      objectReference: {fileID: 0}
+    - target: {fileID: 880436249290670828, guid: 5679c79b33fa3364ab7d2cc4f85cde38, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 880436249290670828, guid: 5679c79b33fa3364ab7d2cc4f85cde38, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 880436249290670828, guid: 5679c79b33fa3364ab7d2cc4f85cde38, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 880436249290670828, guid: 5679c79b33fa3364ab7d2cc4f85cde38, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 880436249290670828, guid: 5679c79b33fa3364ab7d2cc4f85cde38, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 880436249290670828, guid: 5679c79b33fa3364ab7d2cc4f85cde38, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 880436249290670828, guid: 5679c79b33fa3364ab7d2cc4f85cde38, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 880436249290670828, guid: 5679c79b33fa3364ab7d2cc4f85cde38, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 880436249290670828, guid: 5679c79b33fa3364ab7d2cc4f85cde38, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 880436249290670828, guid: 5679c79b33fa3364ab7d2cc4f85cde38, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 880436249290670828, guid: 5679c79b33fa3364ab7d2cc4f85cde38, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 880436249290670828, guid: 5679c79b33fa3364ab7d2cc4f85cde38, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 880436249290670828, guid: 5679c79b33fa3364ab7d2cc4f85cde38, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 880436249290670828, guid: 5679c79b33fa3364ab7d2cc4f85cde38, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 880436249290670828, guid: 5679c79b33fa3364ab7d2cc4f85cde38, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 880436249290670828, guid: 5679c79b33fa3364ab7d2cc4f85cde38, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 880436249290670828, guid: 5679c79b33fa3364ab7d2cc4f85cde38, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 880436249290670828, guid: 5679c79b33fa3364ab7d2cc4f85cde38, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 880436249290670828, guid: 5679c79b33fa3364ab7d2cc4f85cde38, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 880436249290670828, guid: 5679c79b33fa3364ab7d2cc4f85cde38, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 880436249290670828, guid: 5679c79b33fa3364ab7d2cc4f85cde38, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 880436249570420234, guid: 5679c79b33fa3364ab7d2cc4f85cde38, type: 3}
+      propertyPath: m_text
+      value: Remove Main Housing
+      objectReference: {fileID: 0}
+    - target: {fileID: 880436249599833693, guid: 5679c79b33fa3364ab7d2cc4f85cde38, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 880436250889335868, guid: 5679c79b33fa3364ab7d2cc4f85cde38, type: 3}
+      propertyPath: m_text
+      value: Now to access to the power coil, slide the main housing backwards, away
+        from the front housing until it comes completely free from the Linear Stage's
+        base.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7333580506256504125, guid: 5679c79b33fa3364ab7d2cc4f85cde38, type: 3}
+      propertyPath: NameOfClipToPlay
+      value: MainHousingRemoval
+      objectReference: {fileID: 0}
+    - target: {fileID: 7333580506256504125, guid: 5679c79b33fa3364ab7d2cc4f85cde38, type: 3}
+      propertyPath: TargetGameObjectName
+      value: LinearStage_Instructional
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 7935249854531573916, guid: 5679c79b33fa3364ab7d2cc4f85cde38, type: 3}
+    - {fileID: 2640352819522835357, guid: 5679c79b33fa3364ab7d2cc4f85cde38, type: 3}
+    - {fileID: 699101990398985710, guid: 5679c79b33fa3364ab7d2cc4f85cde38, type: 3}
+    - {fileID: 3454404005539874161, guid: 5679c79b33fa3364ab7d2cc4f85cde38, type: 3}
+    - {fileID: 476737260044717093, guid: 5679c79b33fa3364ab7d2cc4f85cde38, type: 3}
+    - {fileID: 1936130553839407679, guid: 5679c79b33fa3364ab7d2cc4f85cde38, type: 3}
+    - {fileID: 8196775823268181346, guid: 5679c79b33fa3364ab7d2cc4f85cde38, type: 3}
+    - {fileID: 1291348724796128167, guid: 5679c79b33fa3364ab7d2cc4f85cde38, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 5679c79b33fa3364ab7d2cc4f85cde38, type: 3}

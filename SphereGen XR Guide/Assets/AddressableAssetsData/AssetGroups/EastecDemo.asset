@@ -1,0 +1,541 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: EastecDemo
+  m_EditorClassIdentifier: 
+  m_GroupName: EastecDemo
+  m_Data:
+    m_SerializedData: []
+  m_GUID: b426659e58a306746a61a20005fac01d
+  m_SerializeEntries:
+  - m_GUID: 36da273160413644c905072e17f2257b
+    m_Address: Assets/prefab/EastecDemo/3DColoredModel Variant.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 951348c8f0c0f574ab057c82e5ba27d4
+    m_Address: Assets/prefab/EastecDemo/Interactivity Variant.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 887fd0acf61851e4e8c284a3eb6d06aa
+    m_Address: Assets/prefab/EastecDemo/CanvasWelcome.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2e8bd360143cf0d44a88315583edcf6b
+    m_Address: Assets/prefab/EastecDemo/BillOfMaterials Variant.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3746ec34ef138ca49aa9a277632cf092
+    m_Address: Assets/prefab/EastecDemo/ExplodedView Variant.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5679c79b33fa3364ab7d2cc4f85cde38
+    m_Address: Assets/prefab/EastecDemo/FrontHousingScrews Variant.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c2f7deaf779ba1c4e8cebe6caefddfc9
+    m_Address: Assets/prefab/EastecDemo/3DModel Variant.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7183e66ac0d534f4d8b7f26d5ca91bea
+    m_Address: Assets/prefab/EastecDemo/13_FinalScreen Variant.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2a2e7cfca3c682d4d869b2975d29aeaa
+    m_Address: Assets/prefab/EastecDemo/8_RearHousing Variant.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5745552433e61da42858f312be581652
+    m_Address: Assets/prefab/EastecDemo/12_ReplacePowerCoil Variant.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5e64b843d5b22fe4ab960ffb7db378bc
+    m_Address: Assets/prefab/EastecDemo/MountingScrews Variant.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9124236f87aa0f640bc12b694bebccc5
+    m_Address: Assets/prefab/EastecDemo/EastecDemo.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 41a044d82dac69140a3763f9c4234b83
+    m_Address: Assets/prefab/EastecDemo/10_MainHousing Variant.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 82714ccc23bb98b4ca97a2e1ada462ed
+    m_Address: Assets/prefab/EastecDemo/11_RemovePowerCoil Variant.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 892038a5cc31c18439f7d0264aa1ee0a
+    m_Address: Arial Regular SDF512
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI_And_Text
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eb99dbae7145c9b4681d178e17a11f7c
+    m_Address: Assets/prefab/Model/Materials/SG_Arrow_Material.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6867f9678f70686499e0fd8e60f9af94
+    m_Address: Assets/prefab/Model/Materials/SG_S_Material.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5c7a1a2bfdf2d2f419b2755f143dd1a5
+    m_Address: Assets/prefab/Model/Materials/SG_G_Material.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 68df8da5192fcbf4fa7c298379bf1717
+    m_Address: Assets/prefab/EastecDemo/LinearStage_Interactable.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e5b0c592cc17f5e49994db29d09c0906
+    m_Address: Assets/MaterialsShaders/Wireframe.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cc72c63d8f2956a4f9dcb2ba68d43aaf
+    m_Address: Assets/prefab/EastecDemo/5_StepAssetList.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 014f9b6cfd0d89b43b0e1f05985a2d55
+    m_Address: Assets/prefab/EastecDemo/LinearStage_Wireframe.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2719769784dc93845887abe89ddca737
+    m_Address: Assets/prefab/Model/Materials/Chrome.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ecf4d8ac3b0e9e8499e7ccd02e425bc9
+    m_Address: Assets/prefab/EastecDemo/LinearStage_Interactable Variant.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 25727b65722d61d4695ad0547e78df4d
+    m_Address: Assets/prefab/EastecDemo/LinearStage_Colored Variant.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9ee1a602d119345489eff84a61caf27f
+    m_Address: Assets/prefab/EastecDemo/3_StepAssetList.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 49ace45ac59ee9a41b18ca084f896760
+    m_Address: Assets/prefab/EastecDemo/2_StepAssetList.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 232568b98bf24cc4da1ef514f19990c5
+    m_Address: Assets/prefab/EastecDemo/4_StepAssetList.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 97db4350fdf34ee4ab6fac3ff0278f25
+    m_Address: Assets/prefab/EastecDemo/IntroStep.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 86e1208dc5df2d941a1245ab24cd54fb
+    m_Address: Assets/MaterialsShaders/WireframeMaterial.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 390abe6cf620a6f46a6cf17b6a4d8e21
+    m_Address: Assets/ReferenceImages/ReferenceImageLibrary.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8585fd3ed12b5714a94ac84d787e0c1e
+    m_Address: Assets/ReferenceImages/SphereGenLogo.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4080bf5d46054b04aadd32afc2d042b9
+    m_Address: Assets/prefab/ScriptableObjects/StoryBoardRefDataInOrder.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c55c1e342c8c39f4bb322d22c16fe7c7
+    m_Address: Assets/prefab/Option Label.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 95ec80e7547996e4895b286fb126b476
+    m_Address: Assets/prefab/Model/Prefabs/LinearStage_stp.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 480a6250b648f084f9e072f11c083f8e
+    m_Address: Assets/prefab/Model/Prefabs/LinearStage_CleanedUp.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9abf69421a5143d40a3f7dac5c586b10
+    m_Address: Assets/prefab/Model/Materials/Red.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2bba895df1f39ac40a7af9701731eb9a
+    m_Address: Assets/prefab/Model/Materials/Metal.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8f8696518c0ff564ca56da5a5c9ed503
+    m_Address: Assets/prefab/Model/Materials/Green.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9f381ef0fe9095b42ab8b113ea8ca69c
+    m_Address: Assets/prefab/Model/Materials/Gray.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b0759c8192e3e444aa6655b442d87444
+    m_Address: Assets/prefab/Model/Animations/LinearStage_stp.controller
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cd79831156ec7394895bd34cf4964ff1
+    m_Address: Assets/prefab/Model/Animations/ExplodedView.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: de8f016da6aa9f3428f5756265304026
+    m_Address: Assets/prefab/Materials/A.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ec57f77dfe0fa394b964c977cab1baa7
+    m_Address: Assets/prefab/Materials/B.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9ea4a3d13ef85354ea6a38bb04487291
+    m_Address: Assets/prefab/Materials/C.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 357103350cdd776478a7d2ccb6863b7c
+    m_Address: Assets/prefab/Materials/cylinder1Mat 1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9edf6b60552241a47a9dd65a7a459d0c
+    m_Address: Assets/prefab/Materials/cylinder1Mat 2.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 401fbc9ce01c8b346a0ee084a2d34314
+    m_Address: Assets/prefab/Materials/D.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a636eb310bcf107439a1ceff0183588f
+    m_Address: Assets/prefab/Materials/E.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c0a9118cc38191747a70caede84b5981
+    m_Address: Assets/prefab/Materials/FloorMat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 31dbeb471a2cf5d45a8124f822b1fd7c
+    m_Address: Assets/prefab/Materials/LineRendererMaterial.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1043f4a4c96147d49b6f45fdd9b376ba
+    m_Address: Assets/prefab/Materials/Selector.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 394f31fd4fe826343b23cb540bf462d9
+    m_Address: Assets/prefab/LinearStageStoryBoard/LinearStageOutline.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 56eeb201fd9ba764dbcd0bfa3d90d74f
+    m_Address: Assets/prefab/Label Header.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9b1f8c92f5e2e7b40b99c5fb8a77634d
+    m_Address: Assets/prefab/Materials/cube1Mat 1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e3ad396e44624b1439a0d4e21867d994
+    m_Address: Assets/prefab/Materials/BoundingBoxInEditMode.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cd9bd9f54db7d304d926da63fa6082d5
+    m_Address: Assets/MaterialsShaders/UnlitFrame.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cac2d1a406c46b146905c090c4b28fc7
+    m_Address: Assets/Icons/allenWrench.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d29841dfaa78e46498989ed47467be37
+    m_Address: Assets/Icons/nitrile.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9f2dacc2338d7ec49becc6b8eb5087aa
+    m_Address: Assets/Icons/machineOil.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ddf54da3b43df17439e5ae1a2955a862
+    m_Address: Assets/prefab/EastecDemo/BOM.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 41ba9314990e9a846981404cecc798ef
+    m_Address: Assets/TextMesh Pro/Fonts/tahoma SDF.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7155399de1e1ce74a9b29d6b71e83d0e
+    m_Address: Assets/prefab/EastecDemo/LinearStage_BOM Variant.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: de6500370cc9cff4aaec2f17e021213b
+    m_Address: Assets/prefab/EastecDemo/6_StepAssetList.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4cdf28196e47bef47838adfcb4d5b3b2
+    m_Address: Assets/prefab/Model/Materials/Metal_Transparent.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c980326e4f05c1e4aa4aa11dfc18b4a7
+    m_Address: Assets/prefab/Model/Materials/PulsingColorGreen.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 90247d3689b52454896bda7890438733
+    m_Address: Assets/MaterialsShaders/ColorPulse.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 072b5bb56e80ee64e907ef6c424942e3
+    m_Address: Assets/prefab/Model/Prefabs/Hex_Screws.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9db23bf665613284bb943f4b93a72c0c
+    m_Address: Assets/prefab/Model/Animations/Hex_Screws.controller
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a3f6d07a249a8524eaaf93376fbf82ee
+    m_Address: Assets/prefab/Model/Animations/RearPlateRemoval.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2cda8582df4e40f469300cd8d17e5e28
+    m_Address: Assets/prefab/Model/Animations/RearScrewRemoval.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d942121041a75654e9292bc36f8aeadf
+    m_Address: Assets/prefab/Model/Animations/PowerCoilRemoval.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fe0568328861d454b89e7ccea1bf264a
+    m_Address: Assets/prefab/Model/Animations/MainHousingRemoval.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f451ce9037487f94d8a7adc9204ce727
+    m_Address: Assets/prefab/Model/Animations/LinearStage_CleanedUp.controller
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 669d697d3b868794ab54de42cb95402a
+    m_Address: Assets/prefab/EastecDemo/LinearStage_Instructional Variant.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0586aa0ce4bf3bd40a004e6800a4638f
+    m_Address: Assets/prefab/EastecDemo/7_StepAssetList.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f4e2b74811df9b54fb3b6189d34c02cf
+    m_Address: Assets/Icons/LeftTriangle.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 16d7f241dc942384ca6d30fd40e474f0
+    m_Address: Assets/Icons/RightTriangle.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f324df346d6beb440a310be35c93b372
+    m_Address: Assets/prefab/Model/Animations/FrontScrewRemoval.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a74f045562a457a4eb6c145ffdd6d3a9
+    m_Address: Assets/ReferenceImages/AndrewBiz.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fdb1b5a91d03d134caed6cfda0d50d9a
+    m_Address: Assets/ReferenceImages/StevenFestaBiz.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9b78dd5a8dcce294bb964236f2a1e42f
+    m_Address: Assets/ReferenceImages/MatthewDiasBiz.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 951be80ad5df17548a50ae2a946a2ef6
+    m_Address: Assets/prefab/Model/Animations/PowerCoilReplacement.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1a8f28b41dd09984d8d5bf6a28637f24
+    m_Address: Assets/TextMesh Pro/Fonts/tahoma SDF Blue.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 19cbd5b3268c85d49a020c4d1270edfb
+    m_Address: Assets/Icons/Reset.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a9392141b3bb3c049b88d2ee7b59efc0
+    m_Address: Assets/Icons/Undo.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e32a2b68ff0eb724d8ee862e6643d982
+    m_Address: Assets/Icons/Circle.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 622d2f2a275714e42b38a95c7e8401db
+    m_Address: Assets/Audio/MRTK_Move_Start.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 70749e3285442584b8f6705b41f7a967
+    m_Address: Assets/Audio/MRTK_ButtonPress.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c27807bd97effa34c96da5cb68d35578
+    m_Address: Assets/Audio/MRTK_Shell_Click_In.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3dbf1e156008cd44fb1fb1dfaaf6d582
+    m_Address: Assets/Audio/MRTK_Rotate_Start.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 33a013a627d8ad3479e118cb6545ee8d
+    m_Address: Assets/Audio/MRTK_Scale_Start.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 786ab689153f928448a471d912410dfd
+    m_Address: Assets/Audio/MRTK_Slate_Touch.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 029baee5a538c6e46858580ddf590dee
+    m_Address: Assets/Audio/MRTK_Tap.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 826fadcc2674eca458e0e820f4419a46
+    m_Address: Assets/Audio/MRTK_Select_Main.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: abd02d829a4fa3d419cce1bc235b6c00
+    m_Address: Assets/Audio/MRTK_Slider_Grab.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 81ca67d786c761a4aa86ae1348eb08f6
+    m_Address: Assets/Audio/MRTK_Manipulation_Start.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8408bf18f091c6b469190e32f64df8df
+    m_Address: Assets/Audio/MRTK_Gem.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 16f2b422c28ada045bf552fa6deeca9a
+    m_Address: Assets/Audio/MRTK_Select_Secondary.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1ccdceb7aa4971549a8a062b62eacc58
+    m_Address: Assets/Audio/MRTK_Notification.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: adde110ba9ed02d429571b355d8f370d
+    m_Address: Assets/prefab/EastecDemo/FinalMetricsDataBox.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 134c64dcf143f5644bae7117b66a4644
+    m_Address: Assets/prefab/EastecDemo/FinalMetricsDisplay.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 780b54b606f43c641a1a54451f5917c3
+    m_Address: Assets/prefab/EastecDemo/13_StepAssetList.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: ef0d6a36a9d99c14f86324e240dbdddd, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: ec81e7eed58fd10429f915258aa665d8, type: 2}
+    - {fileID: 11400000, guid: 773023e1099187d46b55348f9c8ade41, type: 2}

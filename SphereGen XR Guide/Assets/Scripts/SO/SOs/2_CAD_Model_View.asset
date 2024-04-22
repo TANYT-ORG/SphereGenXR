@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a094a01d765c7f44a0495c6fb73f3f9, type: 3}
+  m_Name: 2_CAD_Model_View
+  m_EditorClassIdentifier: 
+  TitleText: 3D CAD Model
+  BodyText: "We will use an electro-mechanical device called a linear stage. A\_linear
+    stage\_is a part of a precise\_motion system\_used to restrict an object to a
+    single axis of movement. Shown here in the form of raw 3D CAD model.\r\n"
+  ObjToPlace: {fileID: 9179736455526947707, guid: 014f9b6cfd0d89b43b0e1f05985a2d55, type: 3}
+  Image: {fileID: 21300000, guid: 8585fd3ed12b5714a94ac84d787e0c1e, type: 3}
+  Holders: []

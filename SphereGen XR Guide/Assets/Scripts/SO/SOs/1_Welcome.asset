@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a094a01d765c7f44a0495c6fb73f3f9, type: 3}
+  m_Name: 1_Welcome
+  m_EditorClassIdentifier: 
+  TitleText: Welcome to SphereGen XR
+  BodyText: "SphereGen XR is an Augmented Reality application for 3D product demonstrations
+    for an electro-mechanical device called a linear stage through maintenance and
+    repair.\n\r\nTo begin, scan a nearby flat surface at least 16\" away. When the
+    app recognizes the surface, it will overlay a green mesh. Tap anywhere on the
+    mesh to render a sample model in augmented reality. To interact with the model,
+    tap the -> arrow above\r."
+  ObjToPlace: {fileID: 0}
+  Image: {fileID: 21300000, guid: 8585fd3ed12b5714a94ac84d787e0c1e, type: 3}
+  Holders:
+  - ObjectToPlace: {fileID: 6935190023963768327, guid: 3de240629b8955a4f8fe7275ec91514e, type: 3}
+    ObjTransform: {x: 44, y: 44, z: 44}
+    ObjRotation: {x: 22, y: 22, z: 22}
+    ObjScale: {x: 11, y: 11, z: 11}
+  - ObjectToPlace: {fileID: 6935190023963768327, guid: 3de240629b8955a4f8fe7275ec91514e, type: 3}
+    ObjTransform: {x: 444, y: 444, z: 442}
+    ObjRotation: {x: 2222, y: 2222, z: 222}
+    ObjScale: {x: 1444, y: 444, z: 4444}
+  - ObjectToPlace: {fileID: 6935190023963768327, guid: 3de240629b8955a4f8fe7275ec91514e, type: 3}
+    ObjTransform: {x: 44, y: 44, z: 44}
+    ObjRotation: {x: 22.000002, y: 22, z: 22}
+    ObjScale: {x: 11, y: 11, z: 11}
+  - ObjectToPlace: {fileID: 6935190023963768327, guid: 3de240629b8955a4f8fe7275ec91514e, type: 3}
+    ObjTransform: {x: 444, y: 444, z: 442}
+    ObjRotation: {x: 61.999985, y: 61.999985, z: 221.99998}
+    ObjScale: {x: 1444, y: 444, z: 4444}

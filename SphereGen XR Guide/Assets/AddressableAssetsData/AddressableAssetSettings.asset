@@ -1,0 +1,151 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 468a46d0ae32c3544b7d98094e6448a9, type: 3}
+  m_Name: AddressableAssetSettings
+  m_EditorClassIdentifier: 
+  m_DefaultGroup: b426659e58a306746a61a20005fac01d
+  m_OptimizeCatalogSize: 0
+  m_BuildRemoteCatalog: 1
+  m_BundleLocalCatalog: 0
+  m_CatalogRequestsTimeout: 0
+  m_DisableCatalogUpdateOnStart: 0
+  m_IgnoreUnsupportedFilesInBuild: 0
+  m_UniqueBundleIds: 0
+  m_NonRecursiveBuilding: 0
+  m_CCDEnabled: 0
+  m_maxConcurrentWebRequests: 500
+  m_ContiguousBundles: 0
+  m_StripUnityVersionFromBundleBuild: 0
+  m_DisableVisibleSubAssetRepresentations: 0
+  m_ShaderBundleNaming: 0
+  m_ShaderBundleCustomNaming: 
+  m_MonoScriptBundleNaming: 0
+  m_CheckForContentUpdateRestrictionsOption: 0
+  m_MonoScriptBundleCustomNaming: 
+  m_RemoteCatalogBuildPath:
+    m_Id: 842078b1991398e46b5135dd5bf87f1b
+  m_RemoteCatalogLoadPath:
+    m_Id: 531b1e49b5d06a54e9283ef5f3a97984
+  m_ContentStateBuildPathProfileVariableName: <default settings path>
+  m_CustomContentStateBuildPath: 
+  m_ContentStateBuildPath: 
+  m_BuildAddressablesWithPlayerBuild: 2
+  m_overridePlayerVersion: 
+  m_GroupAssets:
+  - {fileID: 11400000, guid: 99af353d3c7f9c343be2bfe7580290ac, type: 2}
+  - {fileID: 11400000, guid: ef11a83794e06f44385498bfd9b331a3, type: 2}
+  - {fileID: 11400000, guid: cb775f08d55d9094b84d431413f2d690, type: 2}
+  m_BuildSettings:
+    m_CompileScriptsInVirtualMode: 0
+    m_CleanupStreamingAssetsAfterBuilds: 1
+    m_LogResourceManagerExceptions: 1
+    m_BundleBuildPath: Temp/com.unity.addressables/AssetBundles
+  m_ProfileSettings:
+    m_Profiles:
+    - m_InheritedParent: 
+      m_Id: 9b8a31345889b924d836a5c1f2b893eb
+      m_ProfileName: Default
+      m_Values:
+      - m_Id: 63b4035f8d6aa8f4eb94c3487c62fc30
+        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+      - m_Id: 554628b2fdccf7949bd94edfb6d73865
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.RuntimePath]/[BuildTarget]'
+      - m_Id: 045d2b723ce5eed4790a2fee8fa4a217
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.RuntimePath]/[BuildTarget]'
+      - m_Id: 842078b1991398e46b5135dd5bf87f1b
+        m_Value: https://spheregenmixedreality.blob.core.windows.net/spheregenxrguide/[BuildTarget]
+      - m_Id: 531b1e49b5d06a54e9283ef5f3a97984
+        m_Value: https://spheregenmixedreality.blob.core.windows.net/spheregenxrguide/[BuildTarget]
+    - m_InheritedParent: 
+      m_Id: d1f6b1b569e59ed49b1355e83be9993c
+      m_ProfileName: New Profile
+      m_Values:
+      - m_Id: 63b4035f8d6aa8f4eb94c3487c62fc30
+        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+      - m_Id: 554628b2fdccf7949bd94edfb6d73865
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.RuntimePath]/[BuildTarget]'
+      - m_Id: 045d2b723ce5eed4790a2fee8fa4a217
+        m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
+      - m_Id: 842078b1991398e46b5135dd5bf87f1b
+        m_Value: C:\WorkSpace\XRGuideBuild/ServerData/[BuildTarget]
+      - m_Id: 531b1e49b5d06a54e9283ef5f3a97984
+        m_Value: https://spheregenmixedreality.blob.core.windows.net/spheregenxrguide/[BuildTarget]
+    - m_InheritedParent: 
+      m_Id: a13b718fa37de6749b28b5df0cbb88f5
+      m_ProfileName: DevelopmentSetup (all built assets to Streaming)
+      m_Values:
+      - m_Id: 63b4035f8d6aa8f4eb94c3487c62fc30
+        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+      - m_Id: 554628b2fdccf7949bd94edfb6d73865
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.RuntimePath]/[BuildTarget]'
+      - m_Id: 045d2b723ce5eed4790a2fee8fa4a217
+        m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
+      - m_Id: 842078b1991398e46b5135dd5bf87f1b
+        m_Value: A:\G\Addressables\EastecDemo
+      - m_Id: 531b1e49b5d06a54e9283ef5f3a97984
+        m_Value: https://spheregenmixedreality.blob.core.windows.net/spheregenxrguide/[BuildTarget]
+    - m_InheritedParent: 
+      m_Id: 4b0d6f4340cd92d48917a1102d4839be
+      m_ProfileName: AndrewLocal
+      m_Values:
+      - m_Id: 63b4035f8d6aa8f4eb94c3487c62fc30
+        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+      - m_Id: 554628b2fdccf7949bd94edfb6d73865
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.RuntimePath]/[BuildTarget]'
+      - m_Id: 045d2b723ce5eed4790a2fee8fa4a217
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.RuntimePath]/[BuildTarget]'
+      - m_Id: 842078b1991398e46b5135dd5bf87f1b
+        m_Value: A:\G\Addressables\EastecDemo/[BuildTarget]
+      - m_Id: 531b1e49b5d06a54e9283ef5f3a97984
+        m_Value: https://spheregenmixedreality.blob.core.windows.net/spheregenxrguide/[BuildTarget]
+    m_ProfileEntryNames:
+    - m_Id: 63b4035f8d6aa8f4eb94c3487c62fc30
+      m_Name: BuildTarget
+      m_InlineUsage: 0
+    - m_Id: 554628b2fdccf7949bd94edfb6d73865
+      m_Name: LocalBuildPath
+      m_InlineUsage: 0
+    - m_Id: 045d2b723ce5eed4790a2fee8fa4a217
+      m_Name: LocalLoadPath
+      m_InlineUsage: 0
+    - m_Id: 842078b1991398e46b5135dd5bf87f1b
+      m_Name: RemoteBuildPath
+      m_InlineUsage: 0
+    - m_Id: 531b1e49b5d06a54e9283ef5f3a97984
+      m_Name: RemoteLoadPath
+      m_InlineUsage: 0
+    m_ProfileVersion: 1
+  m_LabelTable:
+    m_LabelNames:
+    - default
+    - UI_And_Text
+  m_SchemaTemplates: []
+  m_GroupTemplateObjects:
+  - {fileID: 11400000, guid: cf798b5715cc39041a712c85a0f1a7c1, type: 2}
+  m_InitializationObjects: []
+  m_CertificateHandlerType:
+    m_AssemblyName: 
+    m_ClassName: 
+  m_ActivePlayerDataBuilderIndex: 3
+  m_DataBuilders:
+  - {fileID: 11400000, guid: a3970e9003651c546ac112b4fe1340f5, type: 2}
+  - {fileID: 11400000, guid: a7ab5a0a19a761a4ba722988e8e9fb6f, type: 2}
+  - {fileID: 11400000, guid: 93e22add95d0bdc4180652a92de15075, type: 2}
+  - {fileID: 11400000, guid: d44d7761bbab9f94784e3281e3c90d5a, type: 2}
+  m_ActiveProfileId: 4b0d6f4340cd92d48917a1102d4839be
+  m_HostingServicesManager:
+    m_HostingServiceInfos: []
+    m_Settings: {fileID: 11400000}
+    m_NextInstanceId: 0
+    m_RegisteredServiceTypeRefs:
+    - UnityEditor.AddressableAssets.HostingServices.HttpHostingService, Unity.Addressables.Editor
+    m_PingTimeoutInMilliseconds: 5000

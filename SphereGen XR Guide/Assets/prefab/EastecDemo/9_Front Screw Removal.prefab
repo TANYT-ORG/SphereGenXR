@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7982669347954899963
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 796644449007816390, guid: 2a2e7cfca3c682d4d869b2975d29aeaa, type: 3}
+      propertyPath: NameOfClipToPlay
+      value: FrontScrewRemoval
+      objectReference: {fileID: 0}
+    - target: {fileID: 796644449007816390, guid: 2a2e7cfca3c682d4d869b2975d29aeaa, type: 3}
+      propertyPath: TargetGameObjectName
+      value: LinearStage_Instructional
+      objectReference: {fileID: 0}
+    - target: {fileID: 7133652746764455879, guid: 2a2e7cfca3c682d4d869b2975d29aeaa, type: 3}
+      propertyPath: m_text
+      value: 'Now you can see inside the linear stage, but we still need to remove
+        the main housing to get at it.
+
+
+        So, next we need to remove the the
+        two RH2x screws from the front housing, as shown.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7133652747304909079, guid: 2a2e7cfca3c682d4d869b2975d29aeaa, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7133652747304909079, guid: 2a2e7cfca3c682d4d869b2975d29aeaa, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7133652747304909079, guid: 2a2e7cfca3c682d4d869b2975d29aeaa, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7133652747304909079, guid: 2a2e7cfca3c682d4d869b2975d29aeaa, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7133652747304909079, guid: 2a2e7cfca3c682d4d869b2975d29aeaa, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7133652747304909079, guid: 2a2e7cfca3c682d4d869b2975d29aeaa, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7133652747304909079, guid: 2a2e7cfca3c682d4d869b2975d29aeaa, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7133652747304909079, guid: 2a2e7cfca3c682d4d869b2975d29aeaa, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7133652747304909079, guid: 2a2e7cfca3c682d4d869b2975d29aeaa, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7133652747304909079, guid: 2a2e7cfca3c682d4d869b2975d29aeaa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7133652747304909079, guid: 2a2e7cfca3c682d4d869b2975d29aeaa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7133652747304909079, guid: 2a2e7cfca3c682d4d869b2975d29aeaa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7133652747304909079, guid: 2a2e7cfca3c682d4d869b2975d29aeaa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7133652747304909079, guid: 2a2e7cfca3c682d4d869b2975d29aeaa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7133652747304909079, guid: 2a2e7cfca3c682d4d869b2975d29aeaa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7133652747304909079, guid: 2a2e7cfca3c682d4d869b2975d29aeaa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7133652747304909079, guid: 2a2e7cfca3c682d4d869b2975d29aeaa, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7133652747304909079, guid: 2a2e7cfca3c682d4d869b2975d29aeaa, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7133652747304909079, guid: 2a2e7cfca3c682d4d869b2975d29aeaa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7133652747304909079, guid: 2a2e7cfca3c682d4d869b2975d29aeaa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7133652747304909079, guid: 2a2e7cfca3c682d4d869b2975d29aeaa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7133652747304909083, guid: 2a2e7cfca3c682d4d869b2975d29aeaa, type: 3}
+      propertyPath: m_Name
+      value: 9_Front Screw Removal
+      objectReference: {fileID: 0}
+    - target: {fileID: 7133652747610167961, guid: 2a2e7cfca3c682d4d869b2975d29aeaa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7133652748016700838, guid: 2a2e7cfca3c682d4d869b2975d29aeaa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7133652748129902065, guid: 2a2e7cfca3c682d4d869b2975d29aeaa, type: 3}
+      propertyPath: m_text
+      value: Remove RH2x Screws
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 0}
+  m_SourcePrefab: {fileID: 100100000, guid: 2a2e7cfca3c682d4d869b2975d29aeaa, type: 3}

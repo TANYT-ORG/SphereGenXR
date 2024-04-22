@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a094a01d765c7f44a0495c6fb73f3f9, type: 3}
+  m_Name: 10_Main_Housing_Removal
+  m_EditorClassIdentifier: 
+  TitleText: A Look Inside
+  BodyText: "Slide the main housing backwards away from the front housing until it
+    becomes completely free of the base.\r\n\r\n<i>Users will be able to look inside
+    the linear stage that requires manual assembly, safe handling, or installation.\r</i>"
+  ObjToPlace: {fileID: 3770606615115980556, guid: 83d97c9400dba7e479283f768d3bb5e1, type: 3}
+  Image: {fileID: 21300000, guid: 8585fd3ed12b5714a94ac84d787e0c1e, type: 3}
+  Holders: []

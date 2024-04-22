@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 113440583dd2faa4b9e7f4f55e58ab4b, type: 3}
+  m_Name: StoryBoardRefDataInOrder
+  m_EditorClassIdentifier: 
+  AssetRefInOrder:
+  - m_AssetGUID: 372607d0e69008a4f91583f0d842f7cc
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  - m_AssetGUID: 3f7ae397fbd00c74fb56a869f77da2dd
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  - m_AssetGUID: 34ec734289317ef4a8122b3db31f795c
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  - m_AssetGUID: dda77a96a0a354442b93f78837f30e3d
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  - m_AssetGUID: 20da5d5d8a6a8a240a97c2f3f4a10dc8
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  - m_AssetGUID: 02da2153d44a7614ca53ca8c9979dd93
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
