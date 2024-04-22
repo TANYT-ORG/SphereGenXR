@@ -1,0 +1,11 @@
+SphereGen XR Guide/Temp/
+SphereGen XR Guide/Library/
+SphereGen XR Guide/Logs/
+*.csproj
+SphereGen XR Guide/UserSettings/EditorUserSettings.asset
+SphereGen XR Guide/ServerData/
+SphereGen XR Guide/obj/
+
+SphereGen XR Guide/Assets/Scripts/EmailGate/PasswordForSMTP.cs
+
+SphereGen XR Guide/Assets/Scripts/EmailGate/PasswordForSMTP.cs.meta
