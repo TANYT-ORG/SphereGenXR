@@ -19,10 +19,11 @@ namespace SphereGen
 
         private void Start()
         {
-           //PlayerPrefs.DeleteAll();
-            _secretPassword = PasswordForSMTP.sgNoReplyPassword;
+            // TODO: Gitignored secret password. Probably not important.
+            //PlayerPrefs.DeleteAll(); 
+            //_secretPassword = PasswordForSMTP.sgNoReplyPassword;
             CheckIfSignedUp();
-           
+
         }
 
         private void Update()

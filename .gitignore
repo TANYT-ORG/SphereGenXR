@@ -1,3 +1,7 @@
+# SDK Files
+.vscode/
+
+# Original .gitignore
 SphereGen XR Guide/Temp/
 SphereGen XR Guide/Library/
 SphereGen XR Guide/Logs/
