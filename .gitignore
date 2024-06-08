@@ -1,6 +1,10 @@
 # SDK Files
 .vscode/
 
+# Export Folder
+
+Export/
+
 # Original .gitignore
 SphereGen XR Guide/Temp/
 SphereGen XR Guide/Library/
