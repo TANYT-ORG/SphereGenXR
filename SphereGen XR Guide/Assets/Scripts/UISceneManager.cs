@@ -52,7 +52,7 @@ public class UISceneManager : MonoBehaviour
             allDone = false;
         }
 
-        if (Screen.orientation == ScreenOrientation.Landscape)
+        if (Screen.orientation == ScreenOrientation.LandscapeLeft)
         {
             
             LandScapeMode = true;
