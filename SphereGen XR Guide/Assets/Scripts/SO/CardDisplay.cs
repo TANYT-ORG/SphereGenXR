@@ -45,10 +45,6 @@ public class CardDisplay : MonoBehaviour
             this.transform.LookAt(targetPostition);
             lastspawned =  Instantiate(Card.ObjToPlace, Card.ObjToPlace.transform.localPosition, Quaternion.identity);
         }
-        else
-        {
-
-        }
     }
 
     void OnDisable()
