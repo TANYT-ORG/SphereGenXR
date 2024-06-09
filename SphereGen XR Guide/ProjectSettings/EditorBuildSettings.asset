@@ -42,7 +42,7 @@ EditorBuildSettings:
     path: Assets/Scenes/LandscapeTest.unity
     guid: a4580eb1994c43647a6f2b4e8000123d
   - enabled: 1
-    path: Assets/Scenes/Will_Dev_iOS_Fix.unity
+    path: Assets/Scenes/Alaa_Unity_Upgrade.unity
     guid: bd0e95beeaa093d479ed5bef88a2a360
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 5b2347a8af8a53a419851e1f30b83094, type: 2}

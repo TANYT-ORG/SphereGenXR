@@ -52,6 +52,5 @@
         "Temp/": true
     },
     "dotnet.preferCSharpExtension": true,
-    "dotnet.server.useOmnisharp": true,
     "dotnet.defaultSolution": "SphereGen XR Guide.sln"
 }
