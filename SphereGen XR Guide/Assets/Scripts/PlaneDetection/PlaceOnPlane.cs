@@ -83,28 +83,26 @@ public class PlaceOnPlane : MonoBehaviour
             return;
         if(Input.GetTouch(0).phase == TouchPhase.Began)
         {
+            Debug.Log("PlaceOnPlane detected touch. Repeatedly shooting raycast.");
             if (m_RaycastManager.Raycast(touchPosition, s_Hits, TrackableType.PlaneWithinPolygon) && !EventSystem.current.IsPointerOverGameObject(Input.GetTouch(0).fingerId))
             {
+                Debug.Log("PlaceOnPlane Raycast Hit");
                 // Raycast hits are sorted by distance, so the first one
                 // will be the closest hit.
                 var hitPose = s_Hits[0].pose;
 
                 if (spawnedObject == null)
                 {
+                    Debug.Log("Instantiating spawnedObject.");
                     spawnedObject = Instantiate(m_PlacedPrefab, hitPose.position, hitPose.rotation);
-                    
-
+                    Debug.Log($"spawnedObject name: {spawnedObject.name}\t Is null?: {spawnedObject == null}");
                 }
-
                 else
                 {
                     spawnedObject.transform.position = hitPose.position;
-
                 }
                 placementUpdate.Invoke();
-
             }
-
         }
     }
 
