@@ -27,10 +27,8 @@ namespace SphereGen.GuideXR
 
     public sealed class IndividualAssetHandler : MonoBehaviour
     {
-        [SerializeField]
         public ARRaycastManager m_RaycastManager;
         public static IndividualAssetHandler _instance { get; private set; }
-        [SerializeField]
         public Camera ARCam;
         public GameObject MainParent;
         public GameObject AnchorObject;
@@ -38,11 +36,9 @@ namespace SphereGen.GuideXR
         // public AssetReference previousRef,currentRef;
         //[SerializeField]
         //public List<AssetReference> AssetRefInOrder = new List<AssetReference>();
-        [SerializeField]
         public StoryBoardScriptablesObjects storyBoardScriptableObject;
         private readonly Dictionary<AssetReference, GameObject> _AsyncAssetHandleDic = new Dictionary<AssetReference, GameObject>();
 
-        [SerializeField]
         public MessageBoxHandler messageBoxHandler;
 
         public AssetReference PreviousAssetReference = null, CurrentAssetReference = null;

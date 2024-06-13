@@ -15,15 +15,16 @@ namespace SphereGen.GuideXR
         }
         private void Update()
         {
-
             if (Input.touchCount == 1)
                 if (Input.GetTouch(0).phase == TouchPhase.Began)
                 {
-                    RaycastHit hit;
                     // FIXME: Something here's causing a NullReferenceException. Possibly due to
                     //        the new Input Manager package?
+                    Debug.Log($"IndividualAssetHandler GameObject Name: {IndividualAssetHandler._instance.gameObject.name}");
+                    Debug.Log($"Is IndividualAssetHandler Singleton Null? {IndividualAssetHandler._instance == null}");
+                    Debug.Log($"Is IndividualAssetHandler ARCam Null? {IndividualAssetHandler._instance.ARCam == null}");
                     Ray ray = IndividualAssetHandler._instance.ARCam.ScreenPointToRay(Input.GetTouch(0).position);
-                    if (Physics.Raycast(ray, out hit))
+                    if (Physics.Raycast(ray, out RaycastHit hit))
                     {
                         // if (hit.collider.gameObject.tag == "Model")
                         if (hit.collider.gameObject.GetComponent<SelectedObject>())

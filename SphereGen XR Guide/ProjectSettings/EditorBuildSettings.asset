@@ -41,9 +41,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/LandscapeTest.unity
     guid: a4580eb1994c43647a6f2b4e8000123d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Alaa_Unity_Upgrade.unity
     guid: bd0e95beeaa093d479ed5bef88a2a360
+  - enabled: 1
+    path: Assets/Scenes/Alaa_Unity_Upgrade.unity
+    guid: 04c0b164d775d46dba57706a512730d2
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 5b2347a8af8a53a419851e1f30b83094, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 625ea6d16344d844aa9c6614c9410a71, type: 2}
