@@ -38,12 +38,18 @@ public class CardDisplay : MonoBehaviour
     {
         Debug.Log("LoadingNewModel");
         Debug.Log(POPScript.AnchorPosForModels);
-        if (POPScript.AnchorPosForModels != null)
+        if (POPScript.AnchorPosForModels != null && Card.ObjToPlace != null)
         {
             Card.ObjToPlace.transform.localPosition = POPScript.AnchorPosForModels;
             Vector3 targetPostition = new Vector3(Card.ObjToPlace.transform.position.x, this.transform.position.y, Card.ObjToPlace.transform.position.z);
             this.transform.LookAt(targetPostition);
-            lastspawned =  Instantiate(Card.ObjToPlace, Card.ObjToPlace.transform.localPosition, Quaternion.identity);
+            lastspawned = Instantiate(Card.ObjToPlace, Card.ObjToPlace.transform.localPosition, Quaternion.identity);
+        }
+        else
+        {
+            Debug.Log("CardDisplay OnEnable did not set transform.\n"
+                + $"\tIs POPScript.AnchorPosForModels Null?: {POPScript.AnchorPosForModels == null}\n"
+                + $"\tIs Card.ObjToPlace Null?: {Card.ObjToPlace == null}\n");
         }
     }
 

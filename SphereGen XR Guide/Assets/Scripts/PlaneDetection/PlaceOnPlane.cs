@@ -56,6 +56,7 @@ public class PlaceOnPlane : MonoBehaviour
             placementUpdate = new UnityEvent();
 
         placementUpdate.AddListener(DiableVisual);
+        Debug.Log($"PlaceOnPlane Object Name: { gameObject.name }");
         ArPlaneManager.enabled = true;
     }
 

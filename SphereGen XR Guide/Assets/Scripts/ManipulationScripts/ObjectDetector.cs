@@ -19,8 +19,9 @@ namespace SphereGen.GuideXR
             if (Input.touchCount == 1)
                 if (Input.GetTouch(0).phase == TouchPhase.Began)
                 {
-
                     RaycastHit hit;
+                    // FIXME: Something here's causing a NullReferenceException. Possibly due to
+                    //        the new Input Manager package?
                     Ray ray = IndividualAssetHandler._instance.ARCam.ScreenPointToRay(Input.GetTouch(0).position);
                     if (Physics.Raycast(ray, out hit))
                     {

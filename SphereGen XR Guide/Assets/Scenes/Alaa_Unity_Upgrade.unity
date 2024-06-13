@@ -4717,7 +4717,7 @@ MonoBehaviour:
   visualObject: {fileID: 152384282506562555, guid: 0a9be7a87fe44f249abe041d97bbabec, type: 3}
   Panel: {fileID: 0}
   PrefabAtAnchorSpot: {fileID: 9179736455526947707, guid: 014f9b6cfd0d89b43b0e1f05985a2d55, type: 3}
-  ArPlaneManager: {fileID: 0}
+  ArPlaneManager: {fileID: 315754731}
   AnchorPosForModels: {x: 0, y: 0, z: 0}
 --- !u!114 &315754733
 MonoBehaviour:
@@ -5541,12 +5541,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  _SortingLayer: 0
-  _SortingLayerID: 0
-  _SortingOrder: 0
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 358915973}
   m_maskType: 0
+  _SortingLayer: 0
+  _SortingLayerID: 0
+  _SortingOrder: 0
 --- !u!23 &358915973
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -13935,12 +13935,12 @@ GameObject:
   m_Component:
   - component: {fileID: 868691754}
   - component: {fileID: 868691753}
-  - component: {fileID: 868691752}
   - component: {fileID: 868691755}
   - component: {fileID: 868691756}
   - component: {fileID: 868691757}
   - component: {fileID: 868691758}
   - component: {fileID: 868691759}
+  - component: {fileID: 868691760}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -13948,26 +13948,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &868691752
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 868691751}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SendPointerHoverToParent: 1
-  m_HorizontalAxis: Horizontal
-  m_VerticalAxis: Vertical
-  m_SubmitButton: Submit
-  m_CancelButton: Cancel
-  m_InputActionsPerSecond: 10
-  m_RepeatDelay: 0.5
-  m_ForceModuleActive: 0
 --- !u!114 &868691753
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14128,6 +14108,36 @@ MonoBehaviour:
   Portrait: {fileID: 612544998}
   Landscape: {fileID: 1617740965}
   ScrollView: {fileID: 0}
+--- !u!114 &868691760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 868691751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01614664b831546d2ae94a42149d80ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
+  m_MoveRepeatDelay: 0.5
+  m_MoveRepeatRate: 0.1
+  m_XRTrackingOrigin: {fileID: 315754735}
+  m_ActionsAsset: {fileID: -944628639613478452, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_PointAction: {fileID: -1654692200621890270, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_MoveAction: {fileID: -8784545083839296357, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_SubmitAction: {fileID: 392368643174621059, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_CancelAction: {fileID: 7727032971491509709, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_LeftClickAction: {fileID: 3001919216989983466, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_MiddleClickAction: {fileID: -2185481485913320682, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_RightClickAction: {fileID: -4090225696740746782, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_ScrollWheelAction: {fileID: 6240969308177333660, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_TrackedDevicePositionAction: {fileID: 6564999863303420839, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_TrackedDeviceOrientationAction: {fileID: 7970375526676320489, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_DeselectOnBackgroundClick: 1
+  m_PointerBehavior: 0
+  m_CursorLockBehavior: 0
 --- !u!1 &881112234
 GameObject:
   m_ObjectHideFlags: 0
@@ -28359,12 +28369,12 @@ MonoBehaviour:
   m_margin: {x: 0.15808344, y: 0.133237, z: 0.14652872, w: -0.067777164}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  _SortingLayer: 0
-  _SortingLayerID: 0
-  _SortingOrder: 0
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 1680784532}
   m_maskType: 0
+  _SortingLayer: 0
+  _SortingLayerID: 0
+  _SortingOrder: 0
 --- !u!23 &1680784532
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -31429,12 +31439,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: -0.042047027, w: -0.06679951}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  _SortingLayer: 0
-  _SortingLayerID: 0
-  _SortingOrder: 0
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 1835940494}
   m_maskType: 0
+  _SortingLayer: 0
+  _SortingLayerID: 0
+  _SortingOrder: 0
 --- !u!23 &1835940494
 MeshRenderer:
   m_ObjectHideFlags: 0
