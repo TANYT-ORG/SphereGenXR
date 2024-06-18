@@ -37,6 +37,7 @@ public class CardDisplay : MonoBehaviour
     void OnEnable()
     {
         Debug.Log("LoadingNewModel");
+        #if !UNITY_VISIONOS
         Debug.Log(POPScript.AnchorPosForModels);
         if (POPScript.AnchorPosForModels != null && Card.ObjToPlace != null)
         {
@@ -51,6 +52,7 @@ public class CardDisplay : MonoBehaviour
                 + $"\tIs POPScript.AnchorPosForModels Null?: {POPScript.AnchorPosForModels == null}\n"
                 + $"\tIs Card.ObjToPlace Null?: {Card.ObjToPlace == null}\n");
         }
+        #endif
     }
 
     void OnDisable()
