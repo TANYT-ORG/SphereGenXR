@@ -139,10 +139,13 @@ PlayerSettings:
   vulkanEnableLateAcquireNextImage: 0
   vulkanEnableCommandBufferRecycling: 1
   loadStoreDebugModeEnabled: 0
-  visionOSBundleVersion: 1.0
+  visionOSBundleVersion: 0.55
   tvOSBundleVersion: 1.0
   bundleVersion: 0.55
-  preloadedAssets: []
+  preloadedAssets:
+  - {fileID: 11400000, guid: 07059023dbfac4576882bde1e9658543, type: 2}
+  - {fileID: -3145150923269694289, guid: b109ee009e87ac74894d42403cf6a7dc, type: 2}
+  - {fileID: 11400000, guid: 20f7e03a481d845aa9f7d5f797d41cd1, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -164,6 +167,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Android: com.SphereGen.SphereGenXRGuide
+    VisionOS: com.SphereGen.SphereGenXRGuide
     iPhone: com.SphereGen.SphereGenXR
   buildNumber:
     Standalone: 0
@@ -967,6 +971,6 @@ PlayerSettings:
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}
-  platformRequiresReadableAssets: 0
+  platformRequiresReadableAssets: 1
   virtualTexturingSupportEnabled: 0
   insecureHttpOption: 0

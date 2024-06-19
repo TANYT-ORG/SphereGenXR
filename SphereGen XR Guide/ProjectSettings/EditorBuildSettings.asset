@@ -41,14 +41,18 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/LandscapeTest.unity
     guid: a4580eb1994c43647a6f2b4e8000123d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Alaa_VisionOS_Conversion.unity
     guid: 38fc1f86ec8324389aeff3c90c018ac6
+  - enabled: 1
+    path: Assets/Scenes/Alaa_VisionOS_Migration.unity
+    guid: c10ad7588ceaf4d59b20134575b2c12d
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 5b2347a8af8a53a419851e1f30b83094, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 625ea6d16344d844aa9c6614c9410a71, type: 2}
     UnityEditor.XR.VisionOS.VisionOSSettings: {fileID: 11400000, guid: 0b72ebf4288734d97b218eb6163b14d0, type: 2}
     com.unity.addressableassets: {fileID: 11400000, guid: 5d8879df48566024e9b22db3cd648948, type: 2}
+    com.unity.input.settings: {fileID: 11400000, guid: 490f30f928a9e48ca9b90e447524da8e, type: 2}
     com.unity.polyspatial.xr.xr_settings: {fileID: 11400000, guid: b03872d74fb614079864e941dceddea6, type: 2}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 20f7e03a481d845aa9f7d5f797d41cd1, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: b109ee009e87ac74894d42403cf6a7dc, type: 2}
