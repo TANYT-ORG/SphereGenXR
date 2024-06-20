@@ -123,7 +123,18 @@ public class UISceneManager : MonoBehaviour
         }
         ClockTimer = Mathf.Round(StepTimer * 100f) / 100f;
         StepTimer = 0f;
-        UIScenes[numScene].gameObject.GetComponent<CardDisplay>().TimerUI.text = UIScenes[numScene].gameObject.name + ": "+ ClockTimer + " s";
+        // TODO: Delegate "MoveForwardInScene" code to CardDisplay objects
+        //       instead of ONLY UISceneManager.
+        CardDisplay uiSceneCardDisplay = UIScenes[numScene].gameObject.GetComponent<CardDisplay>();
+        if (uiSceneCardDisplay.TimerUI != null)
+        {
+            uiSceneCardDisplay.TimerUI.text = UIScenes[numScene].gameObject.name + ": "+ ClockTimer + " s";
+        }
+        else
+        {
+            Debug.LogError($"Expected TimerUI for {UIScenes[numScene].name}'s "
+                + "component. None found. Cannot display it's ClockTimer.");
+        }
     }
 
     public void MoveBackInScene()
