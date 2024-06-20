@@ -18566,9 +18566,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33acc3b6f04fc124fa646203f42ed25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Dimensions: {x: 0.25, y: 0.25, z: 0.25}
+  m_Dimensions: {x: 5, y: 5, z: 5}
   m_IsUniformScale: 0
-  m_OutputConfiguration: {fileID: 11400000, guid: 875c0b0e767ac4971950f0799c9c886a, type: 2}
+  m_OutputConfiguration: {fileID: 11400000, guid: 4475f6cb21aaa404b98471fb4c102654, type: 2}
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -35253,7 +35253,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2094393378
 RectTransform:
   m_ObjectHideFlags: 0
@@ -36201,7 +36201,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2140951904
 Transform:
   m_ObjectHideFlags: 0
@@ -36211,8 +36211,8 @@ Transform:
   m_GameObject: {fileID: 2140951903}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 8.47}
-  m_LocalScale: {x: 0.06, y: 0.06, z: 0.06}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.005, y: 0.005, z: 0.005}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1395316540955509446}
@@ -40202,7 +40202,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1395316540955509450}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -26.6474}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.52734375, y: 0.52734375, z: 0.52734375}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -40212,8 +40212,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -202.44043, y: 679.8626}
-  m_SizeDelta: {x: 2048, y: 4323.5557}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 2048, y: 2048}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &1395316540955509447
 Canvas:
