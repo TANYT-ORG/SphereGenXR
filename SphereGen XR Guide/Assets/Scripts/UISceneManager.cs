@@ -18,6 +18,7 @@ public class UISceneManager : MonoBehaviour
     private bool allDone = false, allDone2 = false;
     public GameObject AnchoringScene_Portrait, AnchoringScene_Landscape;
     public GetTimerText GTTScript;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -27,8 +28,6 @@ public class UISceneManager : MonoBehaviour
             UIScenes[numScene].SetActive(true);
             numScene = 0;
         }
-       
-
     }
 
     private void OnEnable()
@@ -36,14 +35,13 @@ public class UISceneManager : MonoBehaviour
         //AnchorAndResetCanvas.SetActive(true);
     }
 
-    // Update is called once per frame
+    // TODO: This update loop isn't the best. WILL eat up preformance.
     void Update()
     {
         StepTimer += Time.deltaTime;
 
         if (Screen.orientation == ScreenOrientation.Portrait)
-        {
-           
+        {  
             PortraitMode = true;
             SwitchToPortrait();
             AnchoringScene_Landscape.SetActive(false); //Quick fix
@@ -54,7 +52,6 @@ public class UISceneManager : MonoBehaviour
 
         if (Screen.orientation == ScreenOrientation.LandscapeLeft)
         {
-            
             LandScapeMode = true;
             SwitchToLandScape();
             AnchoringScene_Landscape.SetActive(true);

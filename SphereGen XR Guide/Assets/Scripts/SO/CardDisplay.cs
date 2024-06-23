@@ -36,28 +36,33 @@ public class CardDisplay : MonoBehaviour
 
     void OnEnable()
     {
-        Debug.Log("LoadingNewModel");
-        #if !UNITY_VISIONOS
+        if (Card.ObjToPlace == null)
+        {
+            return;
+        }
+#if PLATFORM_VISIONOS
+        // TODO: Add AR Planefinding functionality to spawn the object
+        //       somewhere other than 0,-0.9,0.
+        Card.ObjToPlace.transform.localPosition = new Vector3(0,-1.9f,0);
+#else
         Debug.Log(POPScript.AnchorPosForModels);
-        if (POPScript.AnchorPosForModels != null && Card.ObjToPlace != null)
+        if (POPScript.AnchorPosForModels == null)
         {
-            Card.ObjToPlace.transform.localPosition = POPScript.AnchorPosForModels;
-            Vector3 targetPostition = new Vector3(Card.ObjToPlace.transform.position.x, this.transform.position.y, Card.ObjToPlace.transform.position.z);
-            this.transform.LookAt(targetPostition);
-            lastspawned = Instantiate(Card.ObjToPlace, Card.ObjToPlace.transform.localPosition, Quaternion.identity);
+            Debug.LogWarning("CardDisplay OnEnable did not set transform.\n"
+                + $"\tIs POPScript.AnchorPosForModels Null?: {POPScript.AnchorPosForModels == null}\n");
+            return;
         }
-        else
-        {
-            Debug.Log("CardDisplay OnEnable did not set transform.\n"
-                + $"\tIs POPScript.AnchorPosForModels Null?: {POPScript.AnchorPosForModels == null}\n"
-                + $"\tIs Card.ObjToPlace Null?: {Card.ObjToPlace == null}\n");
-        }
-        #endif
+        Card.ObjToPlace.transform.localPosition = POPScript.AnchorPosForModels;
+        Vector3 targetPostition = new Vector3(Card.ObjToPlace.transform.position.x, this.transform.position.y, Card.ObjToPlace.transform.position.z);
+        this.transform.LookAt(targetPostition);
+#endif
+        Debug.Log("Instantating new model...");
+        lastspawned = Instantiate(Card.ObjToPlace, Card.ObjToPlace.transform.localPosition, Quaternion.identity);
     }
 
     void OnDisable()
     {
-        Debug.Log("Disabling Model");
+        Debug.Log($"CardDisplay {gameObject.name} disabled. Destroying old model.");
         Destroy(lastspawned);
     }
 
