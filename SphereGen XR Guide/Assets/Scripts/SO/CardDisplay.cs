@@ -43,7 +43,7 @@ public class CardDisplay : MonoBehaviour
 #if PLATFORM_VISIONOS
         // TODO: Add AR Planefinding functionality to spawn the object
         //       somewhere other than 0,-0.9,0.
-        Card.ObjToPlace.transform.localPosition = new Vector3(0,-1.9f,0);
+        Card.ObjToPlace.transform.localPosition = new Vector3(0,-1.3f,0);
 #else
         Debug.Log(POPScript.AnchorPosForModels);
         if (POPScript.AnchorPosForModels == null)
