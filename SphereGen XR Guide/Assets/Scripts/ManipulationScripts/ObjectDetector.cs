@@ -20,6 +20,8 @@ namespace SphereGen.GuideXR
                 {
                     // FIXME: Something here's causing a NullReferenceException. Possibly due to
                     //        the new Input Manager package?
+                    // FIXME: Throws an UnassignedReferenceException due to ARCam not being
+                    //        initalized for visionOS.
                     Debug.Log($"IndividualAssetHandler GameObject Name: {IndividualAssetHandler._instance.gameObject.name}");
                     Debug.Log($"Is IndividualAssetHandler Singleton Null? {IndividualAssetHandler._instance == null}");
                     Debug.Log($"Is IndividualAssetHandler ARCam Null? {IndividualAssetHandler._instance.ARCam == null}");
