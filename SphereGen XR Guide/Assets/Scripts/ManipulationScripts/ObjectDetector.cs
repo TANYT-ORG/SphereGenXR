@@ -11,7 +11,7 @@ namespace SphereGen.GuideXR
 
         public void Start()
         {
-            manipulationScript = gameObject.GetComponent<CustomManipulation>();
+            manipulationScript = GetComponent<CustomManipulation>();
         }
         private void Update()
         {
@@ -19,7 +19,7 @@ namespace SphereGen.GuideXR
                 if (Input.GetTouch(0).phase == TouchPhase.Began)
                 {
                     // FIXME: Something here's causing a NullReferenceException. Possibly due to
-                    //        the new Input Manager package?
+                    //        the new Input System package?
                     // FIXME: Throws an UnassignedReferenceException due to ARCam not being
                     //        initalized for visionOS.
                     Debug.Log($"IndividualAssetHandler GameObject Name: {IndividualAssetHandler._instance.gameObject.name}");
@@ -36,7 +36,6 @@ namespace SphereGen.GuideXR
                             manipulationScript.HostObjectForManipulation = newItem.HostObject.gameObject;
                             SelectObject(hit.collider.gameObject);
                         }
-
                     }
                 }
         }
@@ -50,7 +49,7 @@ namespace SphereGen.GuideXR
             }
         }
 
-        public void SelectObject(GameObject HitObject)
+        public static void SelectObject(GameObject HitObject)
         {
             DeselectAll();
             HitObject.GetComponent<SelectedObject>().OnObjectSelect(true);
